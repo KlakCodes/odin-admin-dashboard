@@ -6,12 +6,13 @@
 
 /* TEST CODE START */
 div {
-    border: 0px red solid;
+    border: 1px orange dashed;
 }
 
 img {
     width: 30px;
     height: 30px;
+    background-color: black;
 }
 /* TEST CODE END */
 
@@ -32,6 +33,7 @@ img {
 .sidebar {
     grid-area: 1 / 1 / 3 / 2;
     background-color: #1992d4;
+    color: white;
 }
 
 .sidebar-logo {
