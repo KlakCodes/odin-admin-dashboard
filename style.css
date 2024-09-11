@@ -6,7 +6,7 @@
 
 /* TEST CODE START */
 div {
-    border: 0px orange dashed;
+    border: 1px orange dashed;
 }
 
 img {
@@ -158,4 +158,25 @@ img {
 
 .main-content {
     grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 2fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.content-headers {
+    align-self: flex-end;
+}
+
+#header-announcements {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.content-projects {
+    grid-area: 2 / 1 / 5 / 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
 }
