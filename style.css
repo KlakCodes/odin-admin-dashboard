@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    background-color: #e2e8f0;
+}
+
 /* TEST CODE START */
 div {
     border: 0px orange dashed;
@@ -16,7 +20,6 @@ img {
 /* TEST CODE END */
 
 .container {
-    background-color: #e2e8f0;
     display: grid;
     grid-template-columns: minmax(300px, 1fr) 4fr;
     grid-template-rows: 1fr 4fr;
@@ -213,6 +216,7 @@ img {
     display: grid;
     grid-template-rows: 1fr 20px;
     padding: 25px 15px;
+    gap: 10px;
 }
 
 .project-title {
