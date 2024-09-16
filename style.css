@@ -197,3 +197,40 @@ img {
     border-radius: 10px;
     box-shadow: 1px 1px 5px 0.5px rgba(0,0,0,0.2);
 }
+
+.project {
+    display: grid;
+    grid-template-columns: 6px 1fr;
+}
+
+.accent {
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: gold;
+    border-radius: 10px 0 0 10px;
+}
+
+.project-content {
+    display: grid;
+    grid-template-rows: 1fr 20px;
+    padding: 25px 15px;
+}
+
+.project-title {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.project-body {
+    font-size: 1em;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.project-buttons > img {
+    width: 20px;
+    height: 20px;
+}
